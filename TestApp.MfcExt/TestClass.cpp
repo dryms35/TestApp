@@ -3,5 +3,5 @@
 
 CString CTestClass::GetData()
 {
-	return 0;
+	return _T("Test String");
 }

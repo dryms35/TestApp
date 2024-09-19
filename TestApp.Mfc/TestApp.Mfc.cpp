@@ -13,6 +13,8 @@
 #include "TestApp.MfcDoc.h"
 #include "TestApp.MfcView.h"
 
+#include "..\TestApp.MfcExt\TestClass.h"
+
 #ifdef _DEBUG
 #define new DEBUG_NEW
 #endif
@@ -198,6 +200,8 @@ void CTestAppMfcApp::OnAppAbout()
 {
 	CAboutDlg aboutDlg;
 	aboutDlg.DoModal();
+
+	CString szTest = CTestClass::GetData();
 }
 
 // CTestAppMfcApp customization load/save methods
