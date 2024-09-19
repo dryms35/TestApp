@@ -24,7 +24,7 @@
 
 BEGIN_MESSAGE_MAP(CTestAppMfcApp, CWinAppEx)
 	ON_COMMAND(ID_APP_ABOUT, &CTestAppMfcApp::OnAppAbout)
-	ON_COMMAND(ID_HELP_TEST, &CTestAppMfcApp::OnAppTest)
+	ON_COMMAND(ID_TEST_GETDATA, &CTestAppMfcApp::OnAppTest)
 	// Standard file based document commands
 	ON_COMMAND(ID_FILE_NEW, &CWinAppEx::OnFileNew)
 	ON_COMMAND(ID_FILE_OPEN, &CWinAppEx::OnFileOpen)
