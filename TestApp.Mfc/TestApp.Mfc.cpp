@@ -24,6 +24,7 @@
 
 BEGIN_MESSAGE_MAP(CTestAppMfcApp, CWinAppEx)
 	ON_COMMAND(ID_APP_ABOUT, &CTestAppMfcApp::OnAppAbout)
+	ON_COMMAND(ID_HELP_TEST, &CTestAppMfcApp::OnAppTest)
 	// Standard file based document commands
 	ON_COMMAND(ID_FILE_NEW, &CWinAppEx::OnFileNew)
 	ON_COMMAND(ID_FILE_OPEN, &CWinAppEx::OnFileOpen)
@@ -200,8 +201,11 @@ void CTestAppMfcApp::OnAppAbout()
 {
 	CAboutDlg aboutDlg;
 	aboutDlg.DoModal();
+}
 
-	CString szTest = CTestClass::GetData();
+void CTestAppMfcApp::OnAppTest()
+{
+	CTestClass::GetData();
 }
 
 // CTestAppMfcApp customization load/save methods
