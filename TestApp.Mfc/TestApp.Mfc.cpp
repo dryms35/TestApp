@@ -205,7 +205,7 @@ void CTestAppMfcApp::OnAppAbout()
 
 void CTestAppMfcApp::OnAppTest()
 {
-	CTestClass::GetData();
+	CString szTest = CTestClass::GetData();
 }
 
 // CTestAppMfcApp customization load/save methods
