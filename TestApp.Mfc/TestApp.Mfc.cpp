@@ -206,6 +206,7 @@ void CTestAppMfcApp::OnAppAbout()
 void CTestAppMfcApp::OnAppTest()
 {
 	CString szTest = CTestClass::GetData();
+	AfxMessageBox(szTest, MB_OK | MB_ICONSTOP);
 }
 
 // CTestAppMfcApp customization load/save methods
