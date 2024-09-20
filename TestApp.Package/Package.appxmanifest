@@ -8,12 +8,12 @@
 
   <Identity
     Name="TestApp.Package"
-    Publisher="CN=Ariel Corporation, O=Ariel Corporation, L=Mount Vernon, S=Ohio, C=US"
+    Publisher="CN=dryms"
     Version="1.0.0.0" />
 
   <Properties>
     <DisplayName>TestApp.Package</DisplayName>
-    <PublisherDisplayName>Ariel Corporation</PublisherDisplayName>
+    <PublisherDisplayName>dryms</PublisherDisplayName>
     <Logo>Images\StoreLogo.png</Logo>
   </Properties>
 
